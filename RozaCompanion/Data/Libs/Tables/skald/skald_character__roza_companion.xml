@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<skald_characters version="1">
+		<skald_character age="25" 
+				 body_type="1" 
+				 gender="1" 
+				 image1="false" 
+				 image2="false" 
+				 image3="false" 
+				 image4="false" 
+				 mortality_id="1" 
+				 owner="ModCreator" 
+				 skald_character_full_name_string_name="Roza Ruthard" 
+				 skald_character_name="667" 
+				 ui_name_string_name="Roza" 
+				 unique_assets="" 
+				 voice_categories="female_young" 
+				 voice_id="1" />
+	</skald_characters>
+</database>

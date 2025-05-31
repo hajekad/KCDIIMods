@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<souls version="13">
+		<soul brain_id="4cacb48f-6ebb-71c5-331d-179b9769809b" 
+		      combat_level="1.0" 
+		      digestion_multiplier="1" 
+		      factionName="animalCompanions" 
+		      initial_clothing_dirt="0" 
+		      skald_character_name="667" 
+		      social_class_id="79" 
+		      soul_archetype_id="8" 
+		      soul_class_id="30" 
+		      soul_id="44a28861-719d-9fed-e3dd-b20c479e8781" 
+		      soul_name="tvez_vorech" 
+		      soul_vip_class_id="12" 
+		      unique="true" 
+		      xp_multiplier="1" />
+	</souls>
+</database>

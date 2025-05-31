@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+	<CharacterComponents version="6">
+		<Component Name="Female" Race="Human" Gender="Female">
+			<DerivedComponents>
+				<Head Name="F_Head" FilePath="humans/female/head/">
+					<Elements>
+						<SkinElement EquipmentPart="face" BodyLayerId="0" />
+					</Elements>
+					<DerivedComponents>
+						<Head Name="roza_companion_head">
+							<Elements>
+								<SkinElement EquipmentPart="face" Model="f_head_015/f_head_015.skin" Material="f_head_015/f_head_015_m01.mtl" />
+							</Elements>
+						</Head>
+					</DerivedComponents>
+				</Head>
+				<Body Name="F_Body" FilePath="humans/female/body/">
+					<Elements>
+						<SkinElement EquipmentPart="torso" BodyLayerId="0" />
+					</Elements>
+					<Features>
+						<Feature Name="Head" Material="UberlodSkin" />
+						<Feature Name="Body" Material="UberlodSkin" />
+						<Feature Name="UberlodHair" Material="UberlodHair" />
+						<Feature Name="HoodBase" Material="NoDraw" />
+						<Feature Name="UberlodFeet" Material="UberlodSkinUniform" />
+						<Feature Name="UberlodHands" Material="UberlodSkinUniform" />
+						<Feature Name="UberlodArms4" Material="NoDraw" />
+						<Feature Name="UberlodArms3" Material="UberlodSkinUniform" />
+						<Feature Name="UberlodArms2" Material="NoDraw" />
+						<Feature Name="UberlodArms" Material="UberlodSkinUniform" />
+						<Feature Name="UberlodTorso4" Material="UberlodSkinUniform" OffsetU="0.1" />
+						<Feature Name="UberlodTorso3" Material="UberlodSkinUniform" OffsetU="0.1" />
+						<Feature Name="UberlodWaist" Material="NoDraw" />
+					</Features>
+					<DerivedComponents>
+						<Body Name="roza_companion_body" Diffuse="#BCBCBC" >
+							<Elements>
+								<SkinElement EquipmentPart="torso" Model="female_body_01.skin" Material="female_body_01.mtl" />
+							</Elements>
+						</Body>
+					</DerivedComponents>
+				</Body>
+				<Hair Name="F_Hair">
+					<DerivedComponents>
+						<Hair Name="f_hair_05" Diffuse="#8B4513" />
+					</DerivedComponents>
+				</Hair>
+			</DerivedComponents>
+		</Component>
+	</CharacterComponents>
+</database>

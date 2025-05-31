@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE storm SYSTEM "storm.dtd">
+<storm>
+	<rules>
+		<rule name="body_tvez_vorech">
+			<selectors>
+				<hasName name="tvez_vorech"/>
+			</selectors>
+			<operations>
+				<setBody name="roza_companion_body" />
+				<setHair name="f_hair_05" />
+			</operations>
+		</rule>
+	</rules>
+</storm>
