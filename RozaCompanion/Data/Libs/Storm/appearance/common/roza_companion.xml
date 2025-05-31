@@ -2,9 +2,9 @@
 <!DOCTYPE storm SYSTEM "storm.dtd">
 <storm>
 	<rules>
-		<rule name="body_tvez_vorech">
+		<rule name="roza_companion_appearance">
 			<selectors>
-				<hasName name="tvez_vorech"/>
+				<isPlayersDogCompanion />
 			</selectors>
 			<operations>
 				<setBody name="roza_companion_body" />
